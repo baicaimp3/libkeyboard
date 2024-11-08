@@ -12,6 +12,8 @@ from libkeyboard import keyboard_write, keyboard_group
 
 
 keyboard_write("测试内容123")            # 模拟键盘打字
+
 keyboard_group("ctrl", "a")             # ctrl+a
+
 keyboard_group("ctrl", "shift", "a")    # ctrl+shift+a
 ```
